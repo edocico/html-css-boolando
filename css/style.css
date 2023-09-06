@@ -7,3 +7,19 @@
 img {
     width: 100%;
 }
+/*header*/ /*placeholder*/
+header section {
+    min-height: 60px;
+    background-color: #FF6901;
+    position: fixed;
+    width: 100%;
+}
+
+/*main*/
+
+/*footer*/ /*placeholder*/
+footer section {
+    min-height: 60px;
+    background-color: #1A1A1A;
+    width: 100%;
+}

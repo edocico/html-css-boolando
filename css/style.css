@@ -8,6 +8,20 @@ img {
     width: 100%;
     display: block;
 }
+/* immagine b */
+.product-image-b {
+    display: none;
+}
+
+.product-display:hover .product-image-b {
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
 /*header*/ /*placeholder*/
 
 header section {

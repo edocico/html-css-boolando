@@ -50,6 +50,18 @@ header section {
     color: red;
 }
 
+.red-label {
+    display: block;
+    position: absolute;
+    background-color: red;
+    left: 10px;
+    bottom: 90px;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5em;
+    padding: 0 5px;
+}
+
 /*footer*/ /*placeholder*/
 
 footer section {

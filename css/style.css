@@ -163,3 +163,30 @@ footer section {
     background-color: #1A1A1A;
     width: 100%;
 }
+
+.col-6 {
+    flex-basis: calc(100% / 2);
+}
+
+.col-6 a {
+    text-decoration: none;
+    color: white;
+    padding-left: 3px;
+}
+
+.col-6 p {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col-6 li {
+    color: white;
+    padding-left: 3px;
+}
+
+footer .row {
+    justify-content: space-between;
+}

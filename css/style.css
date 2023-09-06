@@ -32,15 +32,18 @@ header section {
 
 .product-box {
     flex-basis: calc(100% / 3);
-    padding: 50px 10px;
+    padding: 25px 10px;
+}
+
+.product-display {
     position: relative;
 }
 
 .heart {
     display: block;
     position: absolute;
-    top: 60px;
-    right: 10px;
+    top: 10px;
+    right: 0px;
     font-size: 20px;
     background-color: white;
     padding: 10px;
@@ -54,8 +57,8 @@ header section {
     display: block;
     position: absolute;
     background-color: red;
-    left: 10px;
-    bottom: 90px;
+    left: 0px;
+    bottom: 40px;
     color: white;
     font-size: 14px;
     line-height: 1.5em;
@@ -70,12 +73,12 @@ header section {
     font-size: 14px;
     line-height: 1.5em;
     padding: 0 5px;
-    bottom: 90px;
-    left: 52px;
+    bottom: 40px;
+    left: 43px;
 }
 
 .green-label-only {
-    left: 10px;
+    left: 0px;
     display: block;
     position: absolute;
     background-color: green;
@@ -83,15 +86,29 @@ header section {
     font-size: 14px;
     line-height: 1.5em;
     padding: 0 5px;
-    bottom: 90px;
+    bottom: 40px;
+}
+
+.product-info {
+    position: relative;
 }
 
 .brand {
-    
+  display: block;
+  font-size: 14px;  
 }
 
 .pruduct-title {
-    
+    display: block;
+    font-weight: 600;
+}
+
+.pricetag {
+    color: red;
+}
+
+.discount {
+    text-decoration: line-through;
 }
 /*footer*/ /*placeholder*/
 

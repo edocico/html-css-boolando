@@ -8,6 +8,7 @@ img {
     width: 100%;
 }
 /*header*/ /*placeholder*/
+
 header section {
     min-height: 60px;
     background-color: #FF6901;
@@ -17,7 +18,13 @@ header section {
 
 /*main*/
 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 /*footer*/ /*placeholder*/
+
 footer section {
     min-height: 60px;
     background-color: #1A1A1A;

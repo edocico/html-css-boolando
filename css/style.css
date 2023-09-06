@@ -25,11 +25,43 @@ img {
 /*header*/ /*placeholder*/
 
 header section {
-    min-height: 60px;
+    
     background-color: #FF6901;
    /* position: fixed;*/
-    width: 100%;
 }
+
+
+header .container {
+    min-height: 40px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.col-4 li {
+    padding-top: 10px;
+    padding-left: 5px;
+
+}
+
+.col-4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.col-4 img {
+    width: 150px;
+    display: block;
+    
+}
+
+.col-4 {
+    flex-basis: calc(100% / 3);
+}
+
+
 
 /*main*/
 
